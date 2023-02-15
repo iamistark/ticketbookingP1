@@ -1,0 +1,44 @@
+body {
+  background-image: url(/assets/airport-airplanes-gates-flight-line-163771.jpeg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no repeat;
+  height: 100vh;
+}
+nav ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+nav ul li {
+  list-style: none;
+  font-weight: 500;
+  margin: 20px;
+}
+nav ul button {
+  background-color: aquamarine;
+  font-weight: 600;
+}
+main h1 {
+  display: flex;
+  align-items: center;
+  font-weight: 600;
+  justify-content: center;
+}
+main p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+}
+
+main button {
+  background-color: hotpink;
+  font-weight: 600;
+  position: absolute;
+  right: 50px;
+}
+main button:hover {
+  background-color: aquamarine;
+  color: white;
+}
